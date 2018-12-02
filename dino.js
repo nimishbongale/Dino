@@ -44,6 +44,5 @@ if (obstacle.xPos - tRex.xPos - tRexWidth <= 0.5 * (jumpDistance - obstacleWidth
       }
     }
   }
- 
-  requestAnimationFrame(tick);
+ requestAnimationFrame(tick);
 }());
