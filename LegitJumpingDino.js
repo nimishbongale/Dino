@@ -1,3 +1,9 @@
+/*
+Author @nimishbongale
+Version 1.1.2
+Date 08/12/2018
+A program which makes the dino jump automatically
+*/
 const dispatchKeyEvent = function(eventName, keyCode) {
   var e = new Event(eventName);
   e.keyCode = keyCode;
@@ -17,7 +23,7 @@ const game = Runner.instance_;
     return requestAnimationFrame(tick);
   }
 const obstacles = game.horizon.obstacles;
-if (obstacles.length) {
+if (obstacles.length) {//defining game variables 
     const tRex = game.tRex;
     const tRexWidth = tRex.config.WIDTH;
     const obstacle = obstacles[0];
@@ -38,11 +44,11 @@ if (obstacle.xPos - tRex.xPos - tRexWidth <= 0.5 * (jumpDistance - obstacleWidth
         }
       } else
       if (obstacle.yPos === 75) {
-        if (!tRex.ducking) {
+        if (!tRex.ducking) {//condition to duck 
           duck();
         }
       }
     }
   }
- requestAnimationFrame(tick);
+ requestAnimationFrame(tick);//run the game
 }());
