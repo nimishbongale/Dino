@@ -1,4 +1,5 @@
 # DinoProjects
+[](https://img.shields.io/apm/l/:packageName.svg)
 Step 1: Open chrome://dino on your preferred web browser. 
 
 Step 2: Right-click, and select "inspect element". 
