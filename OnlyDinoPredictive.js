@@ -1,3 +1,15 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.1
+
+Date 23/02/2019
+
+A program which runs a modified version of the dino game, involving changing the user view focus to just a rectangle around the dino, and
+all jumps must be made within the blink of an eye, because there isn't enough time to react. 
+
+*/
 const dispatchKeyEvent = function(eventName, keyCode) {
 
   var e = new Event(eventName);
