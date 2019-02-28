@@ -1,5 +1,5 @@
 # DinoProjects
-Step 1: Open [dino](chrome://dino) on your preferred web browser. 
+Step 1: Open chrome://dino ([dino game](chrome://dino)) on your preferred web browser. 
 
 Step 2: Right-click, and select "inspect element". 
 
