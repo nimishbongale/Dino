@@ -1,4 +1,4 @@
-# Foobar
+# Dino
 
 Dino is a compilation of different javascript codes which basically act as mods for the dino game on chrome.
 
